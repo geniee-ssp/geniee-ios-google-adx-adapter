@@ -12,7 +12,7 @@ let package = Package(
     ],
     dependencies: [
         .package(
-            url: "https://github.com/unigeniee/swift-package-manager-geniee-ios-sdk.git",
+            url: "https://github.com/geniee-ssp/swift-package-manager-geniee-ios-sdk.git",
             from: "8.4.3"
         ),
         .package(
@@ -32,7 +32,7 @@ let package = Package(
         ),
         .binaryTarget(
             name: "GenieeGoogleAdxAdapter",
-            url: "https://github.com/unigeniee/geniee-ios-google-adx-adapter/releases/download/13.4.0/GenieeGoogleAdxAdapter.13.4.0.0.zip",
+            url: "https://github.com/geniee-ssp/geniee-ios-google-adx-adapter/releases/download/13.4.0/GenieeGoogleAdxAdapter.13.4.0.0.zip",
             checksum: "9e23ae6c18a33a96300561e3608ea5466a4625f9afd866536c174ca2e8677ef4"
         )
     ]
